@@ -1,7 +1,6 @@
 [
   {
     "Day": 1,
-    "Date": "Day 1",
     "Workout Focus": "Chest",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "No",
@@ -10,7 +9,6 @@
   },
   {
     "Day": 2,
-    "Date": "Day 2",
     "Workout Focus": "Back",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "No",
@@ -19,7 +17,6 @@
   },
   {
     "Day": 3,
-    "Date": "Day 3",
     "Workout Focus": "Shoulders",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "No",
@@ -28,7 +25,6 @@
   },
   {
     "Day": 4,
-    "Date": "Day 4",
     "Workout Focus": "Legs",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "No",
@@ -37,7 +33,6 @@
   },
   {
     "Day": 5,
-    "Date": "Day 5",
     "Workout Focus": "Arms & Core",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "No",
@@ -46,7 +41,6 @@
   },
   {
     "Day": 6,
-    "Date": "Day 6",
     "Workout Focus": "Pelvic Floor/Core",
     "Technique": "-",
     "Fat Gripz": "-",
@@ -55,7 +49,6 @@
   },
   {
     "Day": 7,
-    "Date": "Day 7",
     "Workout Focus": "Rest",
     "Technique": "-",
     "Fat Gripz": "-",
@@ -64,7 +57,6 @@
   },
   {
     "Day": 8,
-    "Date": "Day 8",
     "Workout Focus": "Chest",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "Yes",
@@ -73,7 +65,6 @@
   },
   {
     "Day": 9,
-    "Date": "Day 9",
     "Workout Focus": "Back",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "Yes",
@@ -82,7 +73,6 @@
   },
   {
     "Day": 10,
-    "Date": "Day 10",
     "Workout Focus": "Shoulders",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "Yes",
@@ -91,7 +81,6 @@
   },
   {
     "Day": 11,
-    "Date": "Day 11",
     "Workout Focus": "Legs",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "Yes",
@@ -100,7 +89,6 @@
   },
   {
     "Day": 12,
-    "Date": "Day 12",
     "Workout Focus": "Arms & Core",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "Yes",
@@ -109,7 +97,6 @@
   },
   {
     "Day": 13,
-    "Date": "Day 13",
     "Workout Focus": "Pelvic Floor/Core",
     "Technique": "-",
     "Fat Gripz": "-",
@@ -118,7 +105,6 @@
   },
   {
     "Day": 14,
-    "Date": "Day 14",
     "Workout Focus": "Rest",
     "Technique": "-",
     "Fat Gripz": "-",
@@ -127,7 +113,6 @@
   },
   {
     "Day": 15,
-    "Date": "Day 15",
     "Workout Focus": "Chest",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "Yes",
@@ -136,7 +121,6 @@
   },
   {
     "Day": 16,
-    "Date": "Day 16",
     "Workout Focus": "Back",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "Yes",
@@ -145,7 +129,6 @@
   },
   {
     "Day": 17,
-    "Date": "Day 17",
     "Workout Focus": "Shoulders",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "Yes",
@@ -154,7 +137,6 @@
   },
   {
     "Day": 18,
-    "Date": "Day 18",
     "Workout Focus": "Legs",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "Yes",
@@ -163,7 +145,6 @@
   },
   {
     "Day": 19,
-    "Date": "Day 19",
     "Workout Focus": "Arms & Core",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "Yes",
@@ -172,7 +153,6 @@
   },
   {
     "Day": 20,
-    "Date": "Day 20",
     "Workout Focus": "Pelvic Floor/Core",
     "Technique": "-",
     "Fat Gripz": "-",
@@ -181,7 +161,6 @@
   },
   {
     "Day": 21,
-    "Date": "Day 21",
     "Workout Focus": "Rest",
     "Technique": "-",
     "Fat Gripz": "-",
@@ -190,7 +169,6 @@
   },
   {
     "Day": 22,
-    "Date": "Day 22",
     "Workout Focus": "Chest",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "No",
@@ -199,7 +177,6 @@
   },
   {
     "Day": 23,
-    "Date": "Day 23",
     "Workout Focus": "Back",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "No",
@@ -208,7 +185,6 @@
   },
   {
     "Day": 24,
-    "Date": "Day 24",
     "Workout Focus": "Shoulders",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "No",
@@ -217,7 +193,6 @@
   },
   {
     "Day": 25,
-    "Date": "Day 25",
     "Workout Focus": "Legs",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "No",
@@ -226,7 +201,6 @@
   },
   {
     "Day": 26,
-    "Date": "Day 26",
     "Workout Focus": "Arms & Core",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "No",
@@ -235,7 +209,6 @@
   },
   {
     "Day": 27,
-    "Date": "Day 27",
     "Workout Focus": "Pelvic Floor/Core",
     "Technique": "-",
     "Fat Gripz": "-",
@@ -244,7 +217,6 @@
   },
   {
     "Day": 28,
-    "Date": "Day 28",
     "Workout Focus": "Rest",
     "Technique": "-",
     "Fat Gripz": "-",
@@ -253,7 +225,6 @@
   },
   {
     "Day": 29,
-    "Date": "Day 29",
     "Workout Focus": "Chest",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "No",
@@ -262,7 +233,6 @@
   },
   {
     "Day": 30,
-    "Date": "Day 30",
     "Workout Focus": "Back",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "No",
@@ -271,7 +241,6 @@
   },
   {
     "Day": 31,
-    "Date": "Day 31",
     "Workout Focus": "Shoulders",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "No",
@@ -280,7 +249,6 @@
   },
   {
     "Day": 32,
-    "Date": "Day 32",
     "Workout Focus": "Legs",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "No",
@@ -289,7 +257,6 @@
   },
   {
     "Day": 33,
-    "Date": "Day 33",
     "Workout Focus": "Arms & Core",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "No",
@@ -298,7 +265,6 @@
   },
   {
     "Day": 34,
-    "Date": "Day 34",
     "Workout Focus": "Pelvic Floor/Core",
     "Technique": "-",
     "Fat Gripz": "-",
@@ -307,7 +273,6 @@
   },
   {
     "Day": 35,
-    "Date": "Day 35",
     "Workout Focus": "Rest",
     "Technique": "-",
     "Fat Gripz": "-",
@@ -316,7 +281,6 @@
   },
   {
     "Day": 36,
-    "Date": "Day 36",
     "Workout Focus": "Chest",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "Yes",
@@ -325,7 +289,6 @@
   },
   {
     "Day": 37,
-    "Date": "Day 37",
     "Workout Focus": "Back",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "Yes",
@@ -334,7 +297,6 @@
   },
   {
     "Day": 38,
-    "Date": "Day 38",
     "Workout Focus": "Shoulders",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "Yes",
@@ -343,7 +305,6 @@
   },
   {
     "Day": 39,
-    "Date": "Day 39",
     "Workout Focus": "Legs",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "Yes",
@@ -352,7 +313,6 @@
   },
   {
     "Day": 40,
-    "Date": "Day 40",
     "Workout Focus": "Arms & Core",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "Yes",
@@ -361,7 +321,6 @@
   },
   {
     "Day": 41,
-    "Date": "Day 41",
     "Workout Focus": "Pelvic Floor/Core",
     "Technique": "-",
     "Fat Gripz": "-",
@@ -370,7 +329,6 @@
   },
   {
     "Day": 42,
-    "Date": "Day 42",
     "Workout Focus": "Rest",
     "Technique": "-",
     "Fat Gripz": "-",
@@ -379,7 +337,6 @@
   },
   {
     "Day": 43,
-    "Date": "Day 43",
     "Workout Focus": "Chest",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "Yes",
@@ -388,7 +345,6 @@
   },
   {
     "Day": 44,
-    "Date": "Day 44",
     "Workout Focus": "Back",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "Yes",
@@ -397,7 +353,6 @@
   },
   {
     "Day": 45,
-    "Date": "Day 45",
     "Workout Focus": "Shoulders",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "Yes",
@@ -406,7 +361,6 @@
   },
   {
     "Day": 46,
-    "Date": "Day 46",
     "Workout Focus": "Legs",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "Yes",
@@ -415,7 +369,6 @@
   },
   {
     "Day": 47,
-    "Date": "Day 47",
     "Workout Focus": "Arms & Core",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "Yes",
@@ -424,7 +377,6 @@
   },
   {
     "Day": 48,
-    "Date": "Day 48",
     "Workout Focus": "Pelvic Floor/Core",
     "Technique": "-",
     "Fat Gripz": "-",
@@ -433,7 +385,6 @@
   },
   {
     "Day": 49,
-    "Date": "Day 49",
     "Workout Focus": "Rest",
     "Technique": "-",
     "Fat Gripz": "-",
@@ -442,7 +393,6 @@
   },
   {
     "Day": 50,
-    "Date": "Day 50",
     "Workout Focus": "Chest",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "No",
@@ -451,7 +401,6 @@
   },
   {
     "Day": 51,
-    "Date": "Day 51",
     "Workout Focus": "Back",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "No",
@@ -460,7 +409,6 @@
   },
   {
     "Day": 52,
-    "Date": "Day 52",
     "Workout Focus": "Shoulders",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "No",
@@ -469,7 +417,6 @@
   },
   {
     "Day": 53,
-    "Date": "Day 53",
     "Workout Focus": "Legs",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "No",
@@ -478,7 +425,6 @@
   },
   {
     "Day": 54,
-    "Date": "Day 54",
     "Workout Focus": "Arms & Core",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "No",
@@ -487,7 +433,6 @@
   },
   {
     "Day": 55,
-    "Date": "Day 55",
     "Workout Focus": "Pelvic Floor/Core",
     "Technique": "-",
     "Fat Gripz": "-",
@@ -496,7 +441,6 @@
   },
   {
     "Day": 56,
-    "Date": "Day 56",
     "Workout Focus": "Rest",
     "Technique": "-",
     "Fat Gripz": "-",
@@ -505,7 +449,6 @@
   },
   {
     "Day": 57,
-    "Date": "Day 57",
     "Workout Focus": "Chest",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "No",
@@ -514,7 +457,6 @@
   },
   {
     "Day": 58,
-    "Date": "Day 58",
     "Workout Focus": "Back",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "No",
@@ -523,7 +465,6 @@
   },
   {
     "Day": 59,
-    "Date": "Day 59",
     "Workout Focus": "Shoulders",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "No",
@@ -532,7 +473,6 @@
   },
   {
     "Day": 60,
-    "Date": "Day 60",
     "Workout Focus": "Legs",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "No",
@@ -541,7 +481,6 @@
   },
   {
     "Day": 61,
-    "Date": "Day 61",
     "Workout Focus": "Arms & Core",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "No",
@@ -550,7 +489,6 @@
   },
   {
     "Day": 62,
-    "Date": "Day 62",
     "Workout Focus": "Pelvic Floor/Core",
     "Technique": "-",
     "Fat Gripz": "-",
@@ -559,7 +497,6 @@
   },
   {
     "Day": 63,
-    "Date": "Day 63",
     "Workout Focus": "Rest",
     "Technique": "-",
     "Fat Gripz": "-",
@@ -568,7 +505,6 @@
   },
   {
     "Day": 64,
-    "Date": "Day 64",
     "Workout Focus": "Chest",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "Yes",
@@ -577,7 +513,6 @@
   },
   {
     "Day": 65,
-    "Date": "Day 65",
     "Workout Focus": "Back",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "Yes",
@@ -586,7 +521,6 @@
   },
   {
     "Day": 66,
-    "Date": "Day 66",
     "Workout Focus": "Shoulders",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "Yes",
@@ -595,7 +529,6 @@
   },
   {
     "Day": 67,
-    "Date": "Day 67",
     "Workout Focus": "Legs",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "Yes",
@@ -604,7 +537,6 @@
   },
   {
     "Day": 68,
-    "Date": "Day 68",
     "Workout Focus": "Arms & Core",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "Yes",
@@ -613,7 +545,6 @@
   },
   {
     "Day": 69,
-    "Date": "Day 69",
     "Workout Focus": "Pelvic Floor/Core",
     "Technique": "-",
     "Fat Gripz": "-",
@@ -622,7 +553,6 @@
   },
   {
     "Day": 70,
-    "Date": "Day 70",
     "Workout Focus": "Rest",
     "Technique": "-",
     "Fat Gripz": "-",
@@ -631,7 +561,6 @@
   },
   {
     "Day": 71,
-    "Date": "Day 71",
     "Workout Focus": "Chest",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "Yes",
@@ -640,7 +569,6 @@
   },
   {
     "Day": 72,
-    "Date": "Day 72",
     "Workout Focus": "Back",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "Yes",
@@ -649,7 +577,6 @@
   },
   {
     "Day": 73,
-    "Date": "Day 73",
     "Workout Focus": "Shoulders",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "Yes",
@@ -658,7 +585,6 @@
   },
   {
     "Day": 74,
-    "Date": "Day 74",
     "Workout Focus": "Legs",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "Yes",
@@ -667,7 +593,6 @@
   },
   {
     "Day": 75,
-    "Date": "Day 75",
     "Workout Focus": "Arms & Core",
     "Technique": "High Weight/Low Reps",
     "Fat Gripz": "Yes",
@@ -676,7 +601,6 @@
   },
   {
     "Day": 76,
-    "Date": "Day 76",
     "Workout Focus": "Pelvic Floor/Core",
     "Technique": "-",
     "Fat Gripz": "-",
@@ -685,7 +609,6 @@
   },
   {
     "Day": 77,
-    "Date": "Day 77",
     "Workout Focus": "Rest",
     "Technique": "-",
     "Fat Gripz": "-",
@@ -694,7 +617,6 @@
   },
   {
     "Day": 78,
-    "Date": "Day 78",
     "Workout Focus": "Chest",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "No",
@@ -703,7 +625,6 @@
   },
   {
     "Day": 79,
-    "Date": "Day 79",
     "Workout Focus": "Back",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "No",
@@ -712,7 +633,6 @@
   },
   {
     "Day": 80,
-    "Date": "Day 80",
     "Workout Focus": "Shoulders",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "No",
@@ -721,7 +641,6 @@
   },
   {
     "Day": 81,
-    "Date": "Day 81",
     "Workout Focus": "Legs",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "No",
@@ -730,7 +649,6 @@
   },
   {
     "Day": 82,
-    "Date": "Day 82",
     "Workout Focus": "Arms & Core",
     "Technique": "Low Weight/High Reps",
     "Fat Gripz": "No",
@@ -739,7 +657,6 @@
   },
   {
     "Day": 83,
-    "Date": "Day 83",
     "Workout Focus": "Pelvic Floor/Core",
     "Technique": "-",
     "Fat Gripz": "-",
@@ -748,7 +665,6 @@
   },
   {
     "Day": 84,
-    "Date": "Day 84",
     "Workout Focus": "Rest",
     "Technique": "-",
     "Fat Gripz": "-",
