@@ -1,0 +1,758 @@
+[
+  {
+    "Day": 1,
+    "Date": "Day 1",
+    "Workout Focus": "Chest",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Bench Press, Incline Dumbbell Press, Chest Flyes",
+    "Sets/Reps": "3x6, 3x8, 2x10"
+  },
+  {
+    "Day": 2,
+    "Date": "Day 2",
+    "Workout Focus": "Back",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Deadlifts, Pull-Ups, Bent-Over Rows",
+    "Sets/Reps": "3x6, 3x8, 3x10"
+  },
+  {
+    "Day": 3,
+    "Date": "Day 3",
+    "Workout Focus": "Shoulders",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Military Press, Lateral Raises, Face Pulls",
+    "Sets/Reps": "3x6, 3x10, 2x12"
+  },
+  {
+    "Day": 4,
+    "Date": "Day 4",
+    "Workout Focus": "Legs",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Squats, Leg Press, Calf Raises",
+    "Sets/Reps": "3x6, 3x8, 3x10"
+  },
+  {
+    "Day": 5,
+    "Date": "Day 5",
+    "Workout Focus": "Arms & Core",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Bicep Curls, Tricep Dips, Hanging Leg Raises",
+    "Sets/Reps": "3x6, 3x8, 3x10"
+  },
+  {
+    "Day": 6,
+    "Date": "Day 6",
+    "Workout Focus": "Pelvic Floor/Core",
+    "Technique": "-",
+    "Fat Gripz": "-",
+    "Exercises": "Kegels, Planks, Bridges",
+    "Sets/Reps": "3x15, 3x30s, 3x12"
+  },
+  {
+    "Day": 7,
+    "Date": "Day 7",
+    "Workout Focus": "Rest",
+    "Technique": "-",
+    "Fat Gripz": "-",
+    "Exercises": "-",
+    "Sets/Reps": "-"
+  },
+  {
+    "Day": 8,
+    "Date": "Day 8",
+    "Workout Focus": "Chest",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Bench Press, Incline Dumbbell Press, Chest Flyes",
+    "Sets/Reps": "3x15, 3x20, 2x25"
+  },
+  {
+    "Day": 9,
+    "Date": "Day 9",
+    "Workout Focus": "Back",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Deadlifts, Pull-Ups, Bent-Over Rows",
+    "Sets/Reps": "3x15, 3x20, 3x25"
+  },
+  {
+    "Day": 10,
+    "Date": "Day 10",
+    "Workout Focus": "Shoulders",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Military Press, Lateral Raises, Face Pulls",
+    "Sets/Reps": "3x15, 3x20, 2x25"
+  },
+  {
+    "Day": 11,
+    "Date": "Day 11",
+    "Workout Focus": "Legs",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Squats, Leg Press, Calf Raises",
+    "Sets/Reps": "3x15, 3x20, 3x25"
+  },
+  {
+    "Day": 12,
+    "Date": "Day 12",
+    "Workout Focus": "Arms & Core",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Bicep Curls, Tricep Dips, Hanging Leg Raises",
+    "Sets/Reps": "3x15, 3x20, 3x25"
+  },
+  {
+    "Day": 13,
+    "Date": "Day 13",
+    "Workout Focus": "Pelvic Floor/Core",
+    "Technique": "-",
+    "Fat Gripz": "-",
+    "Exercises": "Kegels, Planks, Bridges",
+    "Sets/Reps": "3x15, 3x30s, 3x12"
+  },
+  {
+    "Day": 14,
+    "Date": "Day 14",
+    "Workout Focus": "Rest",
+    "Technique": "-",
+    "Fat Gripz": "-",
+    "Exercises": "-",
+    "Sets/Reps": "-"
+  },
+  {
+    "Day": 15,
+    "Date": "Day 15",
+    "Workout Focus": "Chest",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Bench Press, Incline Dumbbell Press, Chest Flyes",
+    "Sets/Reps": "3x6, 3x8, 2x10"
+  },
+  {
+    "Day": 16,
+    "Date": "Day 16",
+    "Workout Focus": "Back",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Deadlifts, Pull-Ups, Bent-Over Rows",
+    "Sets/Reps": "3x6, 3x8, 3x10"
+  },
+  {
+    "Day": 17,
+    "Date": "Day 17",
+    "Workout Focus": "Shoulders",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Military Press, Lateral Raises, Face Pulls",
+    "Sets/Reps": "3x6, 3x10, 2x12"
+  },
+  {
+    "Day": 18,
+    "Date": "Day 18",
+    "Workout Focus": "Legs",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Squats, Leg Press, Calf Raises",
+    "Sets/Reps": "3x6, 3x8, 3x10"
+  },
+  {
+    "Day": 19,
+    "Date": "Day 19",
+    "Workout Focus": "Arms & Core",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Bicep Curls, Tricep Dips, Hanging Leg Raises",
+    "Sets/Reps": "3x6, 3x8, 3x10"
+  },
+  {
+    "Day": 20,
+    "Date": "Day 20",
+    "Workout Focus": "Pelvic Floor/Core",
+    "Technique": "-",
+    "Fat Gripz": "-",
+    "Exercises": "Kegels, Planks, Bridges",
+    "Sets/Reps": "3x15, 3x30s, 3x12"
+  },
+  {
+    "Day": 21,
+    "Date": "Day 21",
+    "Workout Focus": "Rest",
+    "Technique": "-",
+    "Fat Gripz": "-",
+    "Exercises": "-",
+    "Sets/Reps": "-"
+  },
+  {
+    "Day": 22,
+    "Date": "Day 22",
+    "Workout Focus": "Chest",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Bench Press, Incline Dumbbell Press, Chest Flyes",
+    "Sets/Reps": "3x15, 3x20, 2x25"
+  },
+  {
+    "Day": 23,
+    "Date": "Day 23",
+    "Workout Focus": "Back",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Deadlifts, Pull-Ups, Bent-Over Rows",
+    "Sets/Reps": "3x15, 3x20, 3x25"
+  },
+  {
+    "Day": 24,
+    "Date": "Day 24",
+    "Workout Focus": "Shoulders",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Military Press, Lateral Raises, Face Pulls",
+    "Sets/Reps": "3x15, 3x20, 2x25"
+  },
+  {
+    "Day": 25,
+    "Date": "Day 25",
+    "Workout Focus": "Legs",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Squats, Leg Press, Calf Raises",
+    "Sets/Reps": "3x15, 3x20, 3x25"
+  },
+  {
+    "Day": 26,
+    "Date": "Day 26",
+    "Workout Focus": "Arms & Core",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Bicep Curls, Tricep Dips, Hanging Leg Raises",
+    "Sets/Reps": "3x15, 3x20, 3x25"
+  },
+  {
+    "Day": 27,
+    "Date": "Day 27",
+    "Workout Focus": "Pelvic Floor/Core",
+    "Technique": "-",
+    "Fat Gripz": "-",
+    "Exercises": "Kegels, Planks, Bridges",
+    "Sets/Reps": "3x15, 3x30s, 3x12"
+  },
+  {
+    "Day": 28,
+    "Date": "Day 28",
+    "Workout Focus": "Rest",
+    "Technique": "-",
+    "Fat Gripz": "-",
+    "Exercises": "-",
+    "Sets/Reps": "-"
+  },
+  {
+    "Day": 29,
+    "Date": "Day 29",
+    "Workout Focus": "Chest",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Bench Press, Incline Dumbbell Press, Chest Flyes",
+    "Sets/Reps": "3x6, 3x8, 2x10"
+  },
+  {
+    "Day": 30,
+    "Date": "Day 30",
+    "Workout Focus": "Back",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Deadlifts, Pull-Ups, Bent-Over Rows",
+    "Sets/Reps": "3x6, 3x8, 3x10"
+  },
+  {
+    "Day": 31,
+    "Date": "Day 31",
+    "Workout Focus": "Shoulders",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Military Press, Lateral Raises, Face Pulls",
+    "Sets/Reps": "3x6, 3x10, 2x12"
+  },
+  {
+    "Day": 32,
+    "Date": "Day 32",
+    "Workout Focus": "Legs",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Squats, Leg Press, Calf Raises",
+    "Sets/Reps": "3x6, 3x8, 3x10"
+  },
+  {
+    "Day": 33,
+    "Date": "Day 33",
+    "Workout Focus": "Arms & Core",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Bicep Curls, Tricep Dips, Hanging Leg Raises",
+    "Sets/Reps": "3x6, 3x8, 3x10"
+  },
+  {
+    "Day": 34,
+    "Date": "Day 34",
+    "Workout Focus": "Pelvic Floor/Core",
+    "Technique": "-",
+    "Fat Gripz": "-",
+    "Exercises": "Kegels, Planks, Bridges",
+    "Sets/Reps": "3x15, 3x30s, 3x12"
+  },
+  {
+    "Day": 35,
+    "Date": "Day 35",
+    "Workout Focus": "Rest",
+    "Technique": "-",
+    "Fat Gripz": "-",
+    "Exercises": "-",
+    "Sets/Reps": "-"
+  },
+  {
+    "Day": 36,
+    "Date": "Day 36",
+    "Workout Focus": "Chest",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Bench Press, Incline Dumbbell Press, Chest Flyes",
+    "Sets/Reps": "3x15, 3x20, 2x25"
+  },
+  {
+    "Day": 37,
+    "Date": "Day 37",
+    "Workout Focus": "Back",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Deadlifts, Pull-Ups, Bent-Over Rows",
+    "Sets/Reps": "3x15, 3x20, 3x25"
+  },
+  {
+    "Day": 38,
+    "Date": "Day 38",
+    "Workout Focus": "Shoulders",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Military Press, Lateral Raises, Face Pulls",
+    "Sets/Reps": "3x15, 3x20, 2x25"
+  },
+  {
+    "Day": 39,
+    "Date": "Day 39",
+    "Workout Focus": "Legs",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Squats, Leg Press, Calf Raises",
+    "Sets/Reps": "3x15, 3x20, 3x25"
+  },
+  {
+    "Day": 40,
+    "Date": "Day 40",
+    "Workout Focus": "Arms & Core",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Bicep Curls, Tricep Dips, Hanging Leg Raises",
+    "Sets/Reps": "3x15, 3x20, 3x25"
+  },
+  {
+    "Day": 41,
+    "Date": "Day 41",
+    "Workout Focus": "Pelvic Floor/Core",
+    "Technique": "-",
+    "Fat Gripz": "-",
+    "Exercises": "Kegels, Planks, Bridges",
+    "Sets/Reps": "3x15, 3x30s, 3x12"
+  },
+  {
+    "Day": 42,
+    "Date": "Day 42",
+    "Workout Focus": "Rest",
+    "Technique": "-",
+    "Fat Gripz": "-",
+    "Exercises": "-",
+    "Sets/Reps": "-"
+  },
+  {
+    "Day": 43,
+    "Date": "Day 43",
+    "Workout Focus": "Chest",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Bench Press, Incline Dumbbell Press, Chest Flyes",
+    "Sets/Reps": "3x6, 3x8, 2x10"
+  },
+  {
+    "Day": 44,
+    "Date": "Day 44",
+    "Workout Focus": "Back",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Deadlifts, Pull-Ups, Bent-Over Rows",
+    "Sets/Reps": "3x6, 3x8, 3x10"
+  },
+  {
+    "Day": 45,
+    "Date": "Day 45",
+    "Workout Focus": "Shoulders",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Military Press, Lateral Raises, Face Pulls",
+    "Sets/Reps": "3x6, 3x10, 2x12"
+  },
+  {
+    "Day": 46,
+    "Date": "Day 46",
+    "Workout Focus": "Legs",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Squats, Leg Press, Calf Raises",
+    "Sets/Reps": "3x6, 3x8, 3x10"
+  },
+  {
+    "Day": 47,
+    "Date": "Day 47",
+    "Workout Focus": "Arms & Core",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Bicep Curls, Tricep Dips, Hanging Leg Raises",
+    "Sets/Reps": "3x6, 3x8, 3x10"
+  },
+  {
+    "Day": 48,
+    "Date": "Day 48",
+    "Workout Focus": "Pelvic Floor/Core",
+    "Technique": "-",
+    "Fat Gripz": "-",
+    "Exercises": "Kegels, Planks, Bridges",
+    "Sets/Reps": "3x15, 3x30s, 3x12"
+  },
+  {
+    "Day": 49,
+    "Date": "Day 49",
+    "Workout Focus": "Rest",
+    "Technique": "-",
+    "Fat Gripz": "-",
+    "Exercises": "-",
+    "Sets/Reps": "-"
+  },
+  {
+    "Day": 50,
+    "Date": "Day 50",
+    "Workout Focus": "Chest",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Bench Press, Incline Dumbbell Press, Chest Flyes",
+    "Sets/Reps": "3x15, 3x20, 2x25"
+  },
+  {
+    "Day": 51,
+    "Date": "Day 51",
+    "Workout Focus": "Back",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Deadlifts, Pull-Ups, Bent-Over Rows",
+    "Sets/Reps": "3x15, 3x20, 3x25"
+  },
+  {
+    "Day": 52,
+    "Date": "Day 52",
+    "Workout Focus": "Shoulders",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Military Press, Lateral Raises, Face Pulls",
+    "Sets/Reps": "3x15, 3x20, 2x25"
+  },
+  {
+    "Day": 53,
+    "Date": "Day 53",
+    "Workout Focus": "Legs",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Squats, Leg Press, Calf Raises",
+    "Sets/Reps": "3x15, 3x20, 3x25"
+  },
+  {
+    "Day": 54,
+    "Date": "Day 54",
+    "Workout Focus": "Arms & Core",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Bicep Curls, Tricep Dips, Hanging Leg Raises",
+    "Sets/Reps": "3x15, 3x20, 3x25"
+  },
+  {
+    "Day": 55,
+    "Date": "Day 55",
+    "Workout Focus": "Pelvic Floor/Core",
+    "Technique": "-",
+    "Fat Gripz": "-",
+    "Exercises": "Kegels, Planks, Bridges",
+    "Sets/Reps": "3x15, 3x30s, 3x12"
+  },
+  {
+    "Day": 56,
+    "Date": "Day 56",
+    "Workout Focus": "Rest",
+    "Technique": "-",
+    "Fat Gripz": "-",
+    "Exercises": "-",
+    "Sets/Reps": "-"
+  },
+  {
+    "Day": 57,
+    "Date": "Day 57",
+    "Workout Focus": "Chest",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Bench Press, Incline Dumbbell Press, Chest Flyes",
+    "Sets/Reps": "3x6, 3x8, 2x10"
+  },
+  {
+    "Day": 58,
+    "Date": "Day 58",
+    "Workout Focus": "Back",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Deadlifts, Pull-Ups, Bent-Over Rows",
+    "Sets/Reps": "3x6, 3x8, 3x10"
+  },
+  {
+    "Day": 59,
+    "Date": "Day 59",
+    "Workout Focus": "Shoulders",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Military Press, Lateral Raises, Face Pulls",
+    "Sets/Reps": "3x6, 3x10, 2x12"
+  },
+  {
+    "Day": 60,
+    "Date": "Day 60",
+    "Workout Focus": "Legs",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Squats, Leg Press, Calf Raises",
+    "Sets/Reps": "3x6, 3x8, 3x10"
+  },
+  {
+    "Day": 61,
+    "Date": "Day 61",
+    "Workout Focus": "Arms & Core",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Bicep Curls, Tricep Dips, Hanging Leg Raises",
+    "Sets/Reps": "3x6, 3x8, 3x10"
+  },
+  {
+    "Day": 62,
+    "Date": "Day 62",
+    "Workout Focus": "Pelvic Floor/Core",
+    "Technique": "-",
+    "Fat Gripz": "-",
+    "Exercises": "Kegels, Planks, Bridges",
+    "Sets/Reps": "3x15, 3x30s, 3x12"
+  },
+  {
+    "Day": 63,
+    "Date": "Day 63",
+    "Workout Focus": "Rest",
+    "Technique": "-",
+    "Fat Gripz": "-",
+    "Exercises": "-",
+    "Sets/Reps": "-"
+  },
+  {
+    "Day": 64,
+    "Date": "Day 64",
+    "Workout Focus": "Chest",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Bench Press, Incline Dumbbell Press, Chest Flyes",
+    "Sets/Reps": "3x15, 3x20, 2x25"
+  },
+  {
+    "Day": 65,
+    "Date": "Day 65",
+    "Workout Focus": "Back",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Deadlifts, Pull-Ups, Bent-Over Rows",
+    "Sets/Reps": "3x15, 3x20, 3x25"
+  },
+  {
+    "Day": 66,
+    "Date": "Day 66",
+    "Workout Focus": "Shoulders",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Military Press, Lateral Raises, Face Pulls",
+    "Sets/Reps": "3x15, 3x20, 2x25"
+  },
+  {
+    "Day": 67,
+    "Date": "Day 67",
+    "Workout Focus": "Legs",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Squats, Leg Press, Calf Raises",
+    "Sets/Reps": "3x15, 3x20, 3x25"
+  },
+  {
+    "Day": 68,
+    "Date": "Day 68",
+    "Workout Focus": "Arms & Core",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Bicep Curls, Tricep Dips, Hanging Leg Raises",
+    "Sets/Reps": "3x15, 3x20, 3x25"
+  },
+  {
+    "Day": 69,
+    "Date": "Day 69",
+    "Workout Focus": "Pelvic Floor/Core",
+    "Technique": "-",
+    "Fat Gripz": "-",
+    "Exercises": "Kegels, Planks, Bridges",
+    "Sets/Reps": "3x15, 3x30s, 3x12"
+  },
+  {
+    "Day": 70,
+    "Date": "Day 70",
+    "Workout Focus": "Rest",
+    "Technique": "-",
+    "Fat Gripz": "-",
+    "Exercises": "-",
+    "Sets/Reps": "-"
+  },
+  {
+    "Day": 71,
+    "Date": "Day 71",
+    "Workout Focus": "Chest",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Bench Press, Incline Dumbbell Press, Chest Flyes",
+    "Sets/Reps": "3x6, 3x8, 2x10"
+  },
+  {
+    "Day": 72,
+    "Date": "Day 72",
+    "Workout Focus": "Back",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Deadlifts, Pull-Ups, Bent-Over Rows",
+    "Sets/Reps": "3x6, 3x8, 3x10"
+  },
+  {
+    "Day": 73,
+    "Date": "Day 73",
+    "Workout Focus": "Shoulders",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Military Press, Lateral Raises, Face Pulls",
+    "Sets/Reps": "3x6, 3x10, 2x12"
+  },
+  {
+    "Day": 74,
+    "Date": "Day 74",
+    "Workout Focus": "Legs",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Squats, Leg Press, Calf Raises",
+    "Sets/Reps": "3x6, 3x8, 3x10"
+  },
+  {
+    "Day": 75,
+    "Date": "Day 75",
+    "Workout Focus": "Arms & Core",
+    "Technique": "High Weight/Low Reps",
+    "Fat Gripz": "Yes",
+    "Exercises": "Bicep Curls, Tricep Dips, Hanging Leg Raises",
+    "Sets/Reps": "3x6, 3x8, 3x10"
+  },
+  {
+    "Day": 76,
+    "Date": "Day 76",
+    "Workout Focus": "Pelvic Floor/Core",
+    "Technique": "-",
+    "Fat Gripz": "-",
+    "Exercises": "Kegels, Planks, Bridges",
+    "Sets/Reps": "3x15, 3x30s, 3x12"
+  },
+  {
+    "Day": 77,
+    "Date": "Day 77",
+    "Workout Focus": "Rest",
+    "Technique": "-",
+    "Fat Gripz": "-",
+    "Exercises": "-",
+    "Sets/Reps": "-"
+  },
+  {
+    "Day": 78,
+    "Date": "Day 78",
+    "Workout Focus": "Chest",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Bench Press, Incline Dumbbell Press, Chest Flyes",
+    "Sets/Reps": "3x15, 3x20, 2x25"
+  },
+  {
+    "Day": 79,
+    "Date": "Day 79",
+    "Workout Focus": "Back",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Deadlifts, Pull-Ups, Bent-Over Rows",
+    "Sets/Reps": "3x15, 3x20, 3x25"
+  },
+  {
+    "Day": 80,
+    "Date": "Day 80",
+    "Workout Focus": "Shoulders",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Military Press, Lateral Raises, Face Pulls",
+    "Sets/Reps": "3x15, 3x20, 2x25"
+  },
+  {
+    "Day": 81,
+    "Date": "Day 81",
+    "Workout Focus": "Legs",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Squats, Leg Press, Calf Raises",
+    "Sets/Reps": "3x15, 3x20, 3x25"
+  },
+  {
+    "Day": 82,
+    "Date": "Day 82",
+    "Workout Focus": "Arms & Core",
+    "Technique": "Low Weight/High Reps",
+    "Fat Gripz": "No",
+    "Exercises": "Bicep Curls, Tricep Dips, Hanging Leg Raises",
+    "Sets/Reps": "3x15, 3x20, 3x25"
+  },
+  {
+    "Day": 83,
+    "Date": "Day 83",
+    "Workout Focus": "Pelvic Floor/Core",
+    "Technique": "-",
+    "Fat Gripz": "-",
+    "Exercises": "Kegels, Planks, Bridges",
+    "Sets/Reps": "3x15, 3x30s, 3x12"
+  },
+  {
+    "Day": 84,
+    "Date": "Day 84",
+    "Workout Focus": "Rest",
+    "Technique": "-",
+    "Fat Gripz": "-",
+    "Exercises": "-",
+    "Sets/Reps": "-"
+  }
+]
