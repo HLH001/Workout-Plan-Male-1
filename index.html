@@ -3,202 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>12-Week Workout Plan</title>
+    <title>Workout Plan</title>
     <style>
         body {
-            background-image: url('gym_image.jpg');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            opacity: 0.75;
-            margin: 0;
-            padding: 0;
             font-family: Arial, sans-serif;
-        }
-
-        h1, p {
-            color: #fff;
             margin: 0;
             padding: 0;
         }
-
         .container {
-            width: 90%;
-            max-width: 600px; /* Adjust maximum width for larger screens */
-            margin: 0 auto;
-            padding: 15px;
-            background-color: rgba(0, 0, 0, 0.6);
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-            text-align: center; /* Center text in container */
+            width: 80%;
+            margin: auto;
+            padding: 20px;
         }
-
-        .workout-day.checked {
-            text-decoration: line-through;
-            background-color: rgba(0, 128, 0, 0.3);
+        h1 {
+            text-align: center;
         }
-
-        select, button {
-            margin-top: 10px;
-            padding: 12px;
-            font-size: 16px;
-            border: none;
-            border-radius: 5px;
+        .workout-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
         }
-
-        button {
-            background-color: #28a745; /* Green color for button */
-            color: #fff;
-            cursor: pointer;
+        .workout-table th, .workout-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
         }
-
-        button:hover {
-            background-color: #218838; /* Darker green on hover */
+        .workout-table th {
+            background-color: #f4f4f4;
+            text-align: left;
         }
-
-        #workout-details {
+        .workout-summary {
             margin-top: 20px;
-            padding: 10px;
-            background-color: rgba(255, 255, 255, 0.8); /* White background with slight opacity */
-            border-radius: 5px;
         }
-
-        .date-container {
-            position: fixed; /* Fix position for consistent placement */
-            right: 15px; /* Adjust position */
-            top: 15px; /* Adjust position */
-            text-align: right;
-            color: #fff;
-            z-index: 1000; /* Ensure date is above other content */
-        }
-
-        .date-container .date {
-            font-size: 1.2em; /* Slightly larger for readability */
-            font-weight: bold;
-        }
-
-        .date-container .day {
-            font-size: 1em; /* Consistent size for day */
-        }
-
-        @media (max-width: 600px) {
-            .container {
-                width: 95%;
-                padding: 10px;
-            }
-
-            select, button {
-                font-size: 14px; /* Smaller font size for smaller screens */
-                padding: 10px;
-            }
-
-            .date-container .date, .date-container .day {
-                font-size: 1em; /* Adjust font size for smaller screens */
-            }
+        .summary-item {
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
-    <!-- Date and Day Display -->
-    <div class="date-container">
-        <div class="date" id="current-date">September 2, 2024</div>
-        <div class="day" id="current-day">Monday</div>
-    </div>
-
     <div class="container">
-        <h1>12-Week Workout Plan</h1>
-        <select id="day-select">
-            <option value="">Select a day</option>
-        </select>
-        <div id="workout-details"></div>
-        <button id="mark-complete">Mark as Complete</button>
+        <h1>Workout Plan</h1>
+        <!-- Existing content -->
+        <table class="workout-table" id="workout-table">
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Date</th>
+                    <th>Workout Focus</th>
+                    <th>Technique</th>
+                    <th>Fat Gripz</th>
+                    <th>Exercises</th>
+                    <th>Sets/Reps</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Rows will be inserted here by JavaScript -->
+            </tbody>
+        </table>
+        <div class="workout-summary" id="workout-summary">
+            <!-- Summary will be inserted here by JavaScript -->
+        </div>
+        <!-- Existing content -->
     </div>
-
     <script>
-        const startDate = new Date('2024-09-02'); // Start date (September 2, 2024)
-        const daySelect = document.getElementById("day-select");
-        const currentDateElem = document.getElementById("current-date");
-        const currentDayElem = document.getElementById("current-day");
+        // Your JSON data
+        const workoutData = [
+            {"Day": 1, "Date": "Day 1", "Workout Focus": "Chest", "Technique": "High Weight/Low Reps", "Fat Gripz": "No", "Exercises": "Bench Press, Incline Dumbbell Press, Chest Flyes", "Sets/Reps": "3x6, 3x8, 2x10"},
+            {"Day": 2, "Date": "Day 2", "Workout Focus": "Back", "Technique": "High Weight/Low Reps", "Fat Gripz": "No", "Exercises": "Deadlifts, Pull-Ups, Bent-Over Rows", "Sets/Reps": "3x6, 3x8, 3x10"},
+            // Add all other workout data objects here
+        ];
 
-        // Function to update the displayed date and day
-        function updateDateAndDay(dayNumber) {
-            const date = new Date(startDate);
-            date.setDate(startDate.getDate() + (dayNumber - 1));
-            const options = { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' };
-            currentDateElem.textContent = date.toLocaleDateString('en-US', options);
-            currentDayElem.textContent = date.toLocaleDateString('en-US', { weekday: 'long' });
-        }
+        // Function to populate the table
+        function populateTable(data) {
+            const tableBody = document.querySelector('#workout-table tbody');
+            tableBody.innerHTML = ''; // Clear existing rows
 
-        // Function to fetch and parse the JSON file
-        async function fetchJSON() {
-            try {
-                const response = await fetch('ExcelExport.json'); // Ensure this path is correct
-                if (!response.ok) {
-                    throw new Error(`Failed to fetch the JSON file: ${response.statusText}`);
-                }
-                return await response.json();
-            } catch (error) {
-                console.error("Error fetching the JSON file:", error);
-                alert("There was an error loading the workout plan. Please try again later.");
-                return [];
-            }
-        }
-
-        // Function to initialize the page
-        async function initialize() {
-            const workoutPlan = await fetchJSON();
-            if (workoutPlan.length === 0) return; // Stop if no valid data was loaded
-
-            populateDropdown(workoutPlan);
-
-            daySelect.addEventListener("change", () => {
-                const selectedDay = daySelect.value;
-                const plan = workoutPlan.find(p => p.Day == selectedDay);
-                if (plan) {
-                    displayWorkoutDetails(plan);
-                    updateDateAndDay(Number(selectedDay));
-                }
-            });
-
-            const markCompleteButton = document.getElementById("mark-complete");
-            markCompleteButton.addEventListener("click", () => {
-                const workoutDetails = document.getElementById("workout-details").querySelector(".workout-day");
-                if (workoutDetails) {
-                    workoutDetails.classList.toggle("checked");
-                }
-            });
-
-            // Initialize with Day 1
-            updateDateAndDay(1);
-        }
-
-        // Function to populate the dropdown with days
-        function populateDropdown(workoutPlan) {
-            const daySelect = document.getElementById("day-select");
-            workoutPlan.forEach(plan => {
-                const option = document.createElement("option");
-                option.value = plan.Day;
-                option.textContent = `Day ${plan.Day}`;
-                daySelect.appendChild(option);
+            data.forEach(item => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${item.Day}</td>
+                    <td>${item.Date}</td>
+                    <td>${item["Workout Focus"]}</td>
+                    <td>${item.Technique}</td>
+                    <td>${item["Fat Gripz"]}</td>
+                    <td>${item.Exercises}</td>
+                    <td>${item["Sets/Reps"]}</td>
+                `;
+                tableBody.appendChild(row);
             });
         }
 
-        // Function to display workout details for the selected day
-        function displayWorkoutDetails(plan) {
-            const workoutDetails = document.getElementById("workout-details");
-            workoutDetails.innerHTML = `
-                <div class="workout-day">
-                    <strong>Workout Focus:</strong> ${plan["Workout Focus"]}<br>
-                    <strong>Exercises:</strong> ${plan.Exercises}<br>
-                    <strong>Sets/Reps:</strong> ${plan["Sets/Reps"]}<br>
-                    <strong>Diet Technique:</strong> ${plan["Diet Technique"]}
-                </div>
-            `;
+        // Function to populate the summary
+        function populateSummary(data) {
+            const summaryDiv = document.querySelector('#workout-summary');
+            let summaryHTML = '<h2>Workout Summary</h2>';
+
+            data.forEach(item => {
+                summaryHTML += `
+                    <div class="summary-item">
+                        <h3>${item["Workout Focus"]} - ${item.Date}</h3>
+                        <p><strong>Technique:</strong> ${item.Technique}</p>
+                        <p><strong>Fat Gripz:</strong> ${item["Fat Gripz"]}</p>
+                        <p><strong>Exercises:</strong> ${item.Exercises}</p>
+                        <p><strong>Sets/Reps:</strong> ${item["Sets/Reps"]}</p>
+                    </div>
+                `;
+            });
+
+            summaryDiv.innerHTML = summaryHTML;
         }
 
-        // Call initialize when the page is loaded
-        initialize();
+        // Call functions to populate table and summary on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            populateTable(workoutData);
+            populateSummary(workoutData);
+        });
     </script>
 </body>
 </html>
