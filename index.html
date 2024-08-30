@@ -122,19 +122,20 @@
         const currentDayElem = document.getElementById("current-day");
 
         // Function to update the displayed date and day
-        function updateDateAndDay(dayNumber) {
-        // Ensure dayNumber is at least 1
-        if (dayNumber < 1) return;
+function updateDateAndDay(dayNumber) {
+    // Ensure dayNumber is at least 1
+    if (dayNumber < 1) return;
 
-        const date = new Date(startDate);
-        date.setDate(startDate.getDate() + (dayNumber - 1)); // Correct calculation
+    const date = new Date(startDate);
+    date.setDate(startDate.getDate() + (dayNumber - 1)); // Calculate date based on dayNumber
 
-        const options = { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' };
-        currentDateElem.textContent = date.toLocaleDateString('en-US', options);
-        currentDayElem.textContent = date.toLocaleDateString('en-US', { weekday: 'long' });
-        }
-
-
+    // Debugging: Log the computed date
+    console.log(`Computed Date: ${date.toDateString()}`);
+    
+    const options = { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' };
+    currentDateElem.textContent = date.toLocaleDateString('en-US', options);
+    currentDayElem.textContent = date.toLocaleDateString('en-US', { weekday: 'long' });
+}
         // Function to fetch and parse the JSON file
         async function fetchJSON() {
             try {
@@ -150,8 +151,7 @@
             }
         }
 
-        // Function to initialize the page
-async function initialize() {
+ async function initialize() {
     const workoutPlan = await fetchJSON();
     if (workoutPlan.length === 0) return; // Stop if no valid data was loaded
 
@@ -177,6 +177,7 @@ async function initialize() {
     // Initialize with Day 1
     updateDateAndDay(1); // Make sure Day 1 corresponds to September 2, 2024
 }
+
 
         // Function to populate the dropdown with days
         function populateDropdown(workoutPlan) {
