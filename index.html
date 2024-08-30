@@ -123,12 +123,17 @@
 
         // Function to update the displayed date and day
         function updateDateAndDay(dayNumber) {
-            const date = new Date(startDate);
-            date.setDate(startDate.getDate() + (dayNumber - 1));
-            const options = { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' };
-            currentDateElem.textContent = date.toLocaleDateString('en-US', options);
-            currentDayElem.textContent = date.toLocaleDateString('en-US', { weekday: 'long' });
+        // Ensure dayNumber is at least 1
+        if (dayNumber < 1) return;
+
+        const date = new Date(startDate);
+        date.setDate(startDate.getDate() + (dayNumber - 1)); // Correct calculation
+
+        const options = { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' };
+        currentDateElem.textContent = date.toLocaleDateString('en-US', options);
+        currentDayElem.textContent = date.toLocaleDateString('en-US', { weekday: 'long' });
         }
+
 
         // Function to fetch and parse the JSON file
         async function fetchJSON() {
@@ -146,32 +151,32 @@
         }
 
         // Function to initialize the page
-        async function initialize() {
-            const workoutPlan = await fetchJSON();
-            if (workoutPlan.length === 0) return; // Stop if no valid data was loaded
+async function initialize() {
+    const workoutPlan = await fetchJSON();
+    if (workoutPlan.length === 0) return; // Stop if no valid data was loaded
 
-            populateDropdown(workoutPlan);
+    populateDropdown(workoutPlan);
 
-            daySelect.addEventListener("change", () => {
-                const selectedDay = daySelect.value;
-                const plan = workoutPlan.find(p => p.Day == selectedDay);
-                if (plan) {
-                    displayWorkoutDetails(plan);
-                    updateDateAndDay(Number(selectedDay));
-                }
-            });
-
-            const markCompleteButton = document.getElementById("mark-complete");
-            markCompleteButton.addEventListener("click", () => {
-                const workoutDetails = document.getElementById("workout-details").querySelector(".workout-day");
-                if (workoutDetails) {
-                    workoutDetails.classList.toggle("checked");
-                }
-            });
-
-            // Initialize with Day 1
-            updateDateAndDay(1);
+    daySelect.addEventListener("change", () => {
+        const selectedDay = parseInt(daySelect.value, 10); // Ensure it’s an integer
+        const plan = workoutPlan.find(p => p.Day == selectedDay);
+        if (plan) {
+            displayWorkoutDetails(plan);
+            updateDateAndDay(selectedDay); // Update date based on selected day
         }
+    });
+
+    const markCompleteButton = document.getElementById("mark-complete");
+    markCompleteButton.addEventListener("click", () => {
+        const workoutDetails = document.getElementById("workout-details").querySelector(".workout-day");
+        if (workoutDetails) {
+            workoutDetails.classList.toggle("checked");
+        }
+    });
+
+    // Initialize with Day 1
+    updateDateAndDay(1); // Make sure Day 1 corresponds to September 2, 2024
+}
 
         // Function to populate the dropdown with days
         function populateDropdown(workoutPlan) {
